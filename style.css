@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.banner {
+    background-image: url("dossier\ images/Paris.jpg");
+    padding: 100px;
+    text-align: center;
+    background-size: cover;
+    background-position: 100% 15%;
+    font-size: 40px;
+    font-family: 'Bebas Neue';
+    text-shadow: 2px 2px 6px rgb(0, 0, 0);
+    border-bottom: 3px solid rgb(17, 77, 125);
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
+    margin: 20px 20px;
+    width: 900px;
+}
+
+
+.grid3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin: 20px;
+}
+
+.grid5{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 80px;
+    margin: 20px;
+}
+
+.photomoitour{
+    margin-left: 50px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+img{
+    block-size: 500px;
+    box-shadow: 6px 6px 5px 5px rgb(17, 77, 125);
+    margin: 20px;
+    align-content: center;  
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 2%;
+    border: solid 1px white;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    color: rgb(17, 77, 125);
+    font-size: 34px;
+    font-family: 'Signika';
+    margin: 20px;
+    margin-top: 50px;
+}
+    
+p{
+    color: rgb(17, 77, 125);
+    font-size: 20px;
+    font-family: 'Signika';
+    margin: 20px;
+}
+
+.p1{
+    margin-left: 50px;
+}
+
+
+.p3{
+    align-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.width-1-3 {
+    width: 100%;
+    margin: 0;
+    height: 26vw;
+}
+
+.efj{
+    margin-left: 50px;
+}
+
+.box1{
+    padding: 50px 50px;
+    background-color: white;
+}
+
+.box2{
+    padding: 50px 50px;
+    background-color: rgb(17, 77, 125);
+}
+
+.button{
+    background-color: rgb(17, 77, 125);
+    margin: 10px auto;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 40px;
+    display: block;
+    font-family: 'Bebas Neue';
+    text-decoration: none;
+    transition: all 100ms ease;
+    width: max-content;
+}
+
+.button:hover{
+    background-color: rgb(33, 127, 205);
+    transform: scale(1.1);
+}
